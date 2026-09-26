@@ -1,5 +1,5 @@
 import json
-from typing import Annotated
+from typing import Annotated, Optional
 
 from fastapi import FastAPI, HTTPException, Path
 from pydantic import BaseModel, Field
@@ -62,6 +62,55 @@ class Expense(BaseModel):
         )
     ]
 
+class ExpenseUpdate(BaseModel):
+
+    id: Annotated[
+        Optional[str],
+        Field(
+            description="The unique ID of the expense",
+            examples=["E001"]
+        )
+    ] = None
+
+    name: Annotated[
+        Optional[str],
+        Field(
+            description="The name of the expense",
+            examples=["Grocery Shopping"]
+        )
+    ] = None
+
+    amount: Annotated[
+        Optional[float],
+        Field(
+            description="The amount of the expense",
+            examples=[2500]
+        )
+    ] = None
+
+    category: Annotated[
+        Optional[str],
+        Field(
+            description="The category of the expense",
+            examples=["Food"]
+        )
+    ] = None
+
+    date: Annotated[
+        Optional[str],
+        Field(
+            description="The date of the expense",
+            examples=["2026-09-01"]
+        )
+    ] = None
+
+    description: Annotated[
+        Optional[str],
+        Field(
+            description="A detailed description of the expense",
+            examples=["Monthly groceries and household food items"]
+        )
+    ] = None
 
 # =========================
 # Helper Functions
@@ -162,7 +211,7 @@ async def update_expense(
             examples=["E001"]
         )
     ],
-    expense: Expense
+    expense: ExpenseUpdate
 ):
     data = load_data()
 
@@ -179,7 +228,7 @@ async def update_expense(
             detail="Expense ID in URL and request body must match"
         )
 
-    data[expense_id] = expense.model_dump()
+    data[expense_id] = expense.model_dump(exclude=["id"])
 
     save_data(data)
 
