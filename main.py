@@ -228,7 +228,7 @@ async def update_expense(
             detail="Expense ID in URL and request body must match"
         )
 
-    data[expense_id] = expense.model_dump(exclude=["id"])
+    data[expense_id] = expense.model_dump(exclude_unset=True)
 
     save_data(data)
 
