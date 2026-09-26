@@ -268,7 +268,7 @@ async def delete_expense(
     return {
         "message": "Expense deleted successfully",
         "id": expense_id,
-        "expense": deleted_expense
+        # "expense": deleted_expense
     }
 
 

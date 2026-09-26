@@ -69,13 +69,6 @@
         "date": "2026-09-24",
         "description": "Coffee and snacks"
     },
-    "E011": {
-        "name": "Grocery Shopping",
-        "amount": 1100.0,
-        "category": "Food",
-        "date": "2026-09-01",
-        "description": "Monthly groceries and household food items"
-    },
     "E012": {
         "name": "Food Buy",
         "amount": 2300.0,
