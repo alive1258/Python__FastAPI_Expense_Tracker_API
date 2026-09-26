@@ -1,72 +1,87 @@
 {
-  "E001": {
-    "name": "Grocery Shopping",
-    "amount": 2500,
-    "category": "Food",
-    "date": "2026-09-01",
-    "description": "Monthly groceries and household food items"
-  },
-  "E002": {
-    "name": "Uber Ride",
-    "amount": 450,
-    "category": "Transportation",
-    "date": "2026-09-03",
-    "description": "Ride to the office"
-  },
-  "E003": {
-    "name": "Internet Bill",
-    "amount": 1000,
-    "category": "Bills",
-    "date": "2026-09-05",
-    "description": "Monthly home internet subscription"
-  },
-  "E004": {
-    "name": "Restaurant Dinner",
-    "amount": 1200,
-    "category": "Food",
-    "date": "2026-09-07",
-    "description": "Dinner at a local restaurant"
-  },
-  "E005": {
-    "name": "Electricity Bill",
-    "amount": 1850,
-    "category": "Utilities",
-    "date": "2026-09-10",
-    "description": "Monthly electricity bill"
-  },
-  "E006": {
-    "name": "Gym Membership",
-    "amount": 1500,
-    "category": "Health",
-    "date": "2026-09-12",
-    "description": "Monthly gym membership fee"
-  },
-  "E007": {
-    "name": "New Shoes",
-    "amount": 3200,
-    "category": "Shopping",
-    "date": "2026-09-15",
-    "description": "Purchased a pair of running shoes"
-  },
-  "E008": {
-    "name": "Mobile Recharge",
-    "amount": 500,
-    "category": "Bills",
-    "date": "2026-09-18",
-    "description": "Monthly mobile phone recharge"
-  },
-  "E009": {
-    "name": "Movie Ticket",
-    "amount": 800,
-    "category": "Entertainment",
-    "date": "2026-09-21",
-    "description": "Movie tickets for two people"
-  },
-  "E010": {
-    "name": "Coffee",
-    "amount": 350,
-    "category": "Food",
-    "date": "2026-09-24",
-    "description": "Coffee and snacks"
-  }
+    "E001": {
+        "name": "Grocery Shopping",
+        "amount": 2500,
+        "category": "Food",
+        "date": "2026-09-01",
+        "description": "Monthly groceries and household food items"
+    },
+    "E002": {
+        "name": "Uber Ride",
+        "amount": 450,
+        "category": "Transportation",
+        "date": "2026-09-03",
+        "description": "Ride to the office"
+    },
+    "E003": {
+        "name": "Internet Bill",
+        "amount": 1000,
+        "category": "Bills",
+        "date": "2026-09-05",
+        "description": "Monthly home internet subscription"
+    },
+    "E004": {
+        "name": "Restaurant Dinner",
+        "amount": 1200,
+        "category": "Food",
+        "date": "2026-09-07",
+        "description": "Dinner at a local restaurant"
+    },
+    "E005": {
+        "name": "Electricity Bill",
+        "amount": 1850,
+        "category": "Utilities",
+        "date": "2026-09-10",
+        "description": "Monthly electricity bill"
+    },
+    "E006": {
+        "name": "Gym Membership",
+        "amount": 1500,
+        "category": "Health",
+        "date": "2026-09-12",
+        "description": "Monthly gym membership fee"
+    },
+    "E007": {
+        "name": "New Shoes",
+        "amount": 3200,
+        "category": "Shopping",
+        "date": "2026-09-15",
+        "description": "Purchased a pair of running shoes"
+    },
+    "E008": {
+        "name": "Mobile Recharge",
+        "amount": 500,
+        "category": "Bills",
+        "date": "2026-09-18",
+        "description": "Monthly mobile phone recharge"
+    },
+    "E009": {
+        "name": "Movie Ticket",
+        "amount": 800,
+        "category": "Entertainment",
+        "date": "2026-09-21",
+        "description": "Movie tickets for two people"
+    },
+    "E010": {
+        "name": "Coffee",
+        "amount": 350,
+        "category": "Food",
+        "date": "2026-09-24",
+        "description": "Coffee and snacks"
+    },
+    "E011": {
+        "id": "E011",
+        "name": "Grocery Shopping",
+        "amount": 2500.0,
+        "category": "Food",
+        "date": "2026-09-01",
+        "description": "Monthly groceries and household food items"
+    },
+    "E012": {
+        "name": "Food Buy",
+        "amount": 2300.0,
+        "category": "Food",
+        "date": "2026-09-01",
+        "description": "Monthly groceries and household food items"
+    }
 }
